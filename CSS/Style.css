@@ -2,4 +2,14 @@
   background-color: #1abc9c; /*Green*/
   color: #fffff0;
   text-align: center;
+  padding: 80px 120px;
   }
+
+.About{
+  text-align: center;
+  background-color: #1abc9c;
+}
+
+<ul>{
+  text-align: left;
+}
