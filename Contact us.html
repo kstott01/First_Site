@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Theme Made By www.w3schools.com - No Copyright -->
-  <!-- <title>Bootstrap Theme Simply Me</title> -->
   <title>Contact Us</title>
   <link href="css/Style_2.css" rel="stylesheet">
   <meta charset="utf-8">
@@ -34,43 +32,34 @@
   </div>
 </nav>
 
-
 <!-- First Container -->
-
 <div class="container-fluid bg-1 text-center">
   <h3 class="margin"><em><u>Brittany Holiday Homes</u></em></h3>
 </div>
 
 <!-- Second Container -->
 <div class="container-fluid bg-2 text-center">
-  <h3 class="margin">About us</h3>
-  <p>Founded in 2018 we aim to deliver homes away from homes for every family.
-  We are passionate about providing quality homes set upon the beautiful
-  background of Brittany (France). Our homes are handpicked for their charming
-  characters and fully refurbished for your comfort.</p>
+  <h3 class="margin_2">Contact Us</h3>
+  <p>For any queries or to book your holiday contact us using the form below.</p>
+  <form role='form'>
+        <label for="email">Email</label>
+        <input type="text" name="email" ><br>
+        <label for="query">Query</label>
+        <input type="text" name="Question"><br>
+      <button class="btn btn-success" type="submit">Send</button>
+      </form>
+      <script>
+$(document).ready(function(){
+    $("form").submit(function(){
+        alert("Thank you for your query, we will be in contact with you shortly.");
+    });
+});
+</script>
 </div>
 
 <!-- Third Container (Grid) -->
 <div class="container-fluid bg-3 text-center">
-  <h3 class="margin">Nearby attractions</h3>
-  <p>Explore your surrounding areas whilst staying in the heart of Brittany. Here are some suggestions to get you started...</p><br>
-  <div class="row">
-    <div class="col-sm-4">
-      <h4><u>Vannes</u></h4>
-      <p><strong>Visit the historic walled city of Vannes...</strong><br>Founded over 2000 years ago this town is steeped in history. Visit the old town for a range of shops and the harbour to discover fantastic restaurants.</p>
-      <img src="Vannes.jpg" display="text-align-center" style="width:80%" alt="Image">
-    </div>
-    <div class="col-sm-4">
-      <h4><u>Lake Guerlédan</u></h4>
-      <p><strong>Or for a more relaxing change of pace, visit Lake Guerlédan...</strong><br>This artificial lake situated in the middle of Brittany features hiking trails, scenic views and water sports.</p>
-      <img src="lake.jpg" display="text-align-center" style="width:80%" alt="Image">
-    </div>
-    <div class="col-sm-4">
-      <h4><u>Sant-Malo</u></h4>
-      <p><strong>Follow in the footsteps of pirates...</strong><br>Once a pirate stronghold, Saint-Malo is now a popular tourist spot boasting a great aquarium perfect for a day out with the kids.</p>
-      <img src="stmalo.jpg" display="text-align-center" style="width:80%" alt="Image">
-    </div>
-  </div>
+  <h3 class="margin"><em>We hope to see you soon!</em></h3>
 </div>
 
 <!-- Footer -->
@@ -82,5 +71,4 @@
           <button class='btn btn-success btn-instagrm'><a href="https://www.instagram.com">Instagram</a></button>
 </footer>
 
-</body>
 </html>

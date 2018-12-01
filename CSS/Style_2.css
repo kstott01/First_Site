@@ -4,7 +4,8 @@ body {
     color: #f5f6f7;
 }
 p {font-size: 16px;}
-.margin {margin-bottom: 45px;}
+.margin {margin-bottom: 20px;}
+.margin_2 {margin-bottom: 10px;}
 .bg-1 {
     background-color: #1abc9c; /* Green */
     color: #ffffff;
@@ -22,8 +23,8 @@ p {font-size: 16px;}
     color: #fff;
 }
 .container-fluid {
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 45px;
+    padding-bottom: 45px;
 }
 .navbar {
     padding-top: 15px;
